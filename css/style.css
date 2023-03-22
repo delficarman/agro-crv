@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+colores:
+AA8B56 bordes mas oscuros
+F0EBCE fondo mas clarito
+000000 negro
+
+tipografias:
+font-family: 'Poppins', sans-serif;
+
+**/
+
+/**********HEADER*******/
+
+header{
+    background-color: #AA8B56;
+    color: white;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*********MAIN*********/
+.section-principal{
+    background-image: url("../assets/img/main/cosecha-main.jpg");
+    width: 100%; /*me gustaria que quede centrada con espacios en blanco a los costados **/
+    height: 350px;
+    background-position-y: 80%;    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    background-color: #F0EBCE;
+}
+
+h1{
+    font-family:'Poppins', sans-serif ;
+    font-size: 90px;
+    color: black;
+    text-align: center;
+}
+
+.texto-principal{
+    font-family:'Poppins', sans-serif ;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.section-index-secundary div img{
+    border-radius: 50%;
+}
+
+
+/*******FOOTER********/
+
+footer{
+    background-color: #AA8B56;
+}
+
+/********NOSOTROS*********/
+
+h2{
+    font-family:'Poppins', sans-serif ;
+    font-size: 65px;
+    text-align: center;
+}
+
+.texto-nosotros{
+    font-family:'Poppins', sans-serif ;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 120px 0px 120px;
+}
+
+.foto-quienes-somos{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+/******CONTACTO*******/
+
+.titulo-formulario legend{
+    font-family:'Poppins', sans-serif ;
+    font-size: 65px;
+}
+
+.titulo-formulario p{
+    font-family:'Poppins', sans-serif ;
+    font-size: 20px;
+}
+
+
+/******CAMPO*******/
+
+
+.campo-principal{
+    font-family:'Poppins', sans-serif ;
+    text-align: center;
+}
+
+.campo-principal div h2{
+    font-family:'Poppins', sans-serif ;
+    font-size: 65px;
+}
+
+.campo-principal div p{
+    font-family:'Poppins', sans-serif ;
+    font-size: 20px;
+}
+
+/*******ACTIVIDAD********/
+
