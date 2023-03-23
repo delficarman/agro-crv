@@ -17,6 +17,7 @@ font-family: 'Poppins', sans-serif;
 
 /**********HEADER*******/
 
+/*
 header{
     background-color: #AA8B56;
     color: white;
@@ -31,10 +32,12 @@ header{
     color: black;
 }
 
-/*********MAIN*********/
+
+MAIN
+
 .section-principal{
     background-image: url("../assets/img/main/cosecha-main.jpg");
-    width: 100%; /*me gustaria que quede centrada con espacios en blanco a los costados **/
+    width: 100%; 
     height: 350px;
     background-position-y: 80%;    
     background-size: cover;
@@ -64,13 +67,14 @@ h1{
 }
 
 
-/*******FOOTER********/
+
+FOOTER
 
 footer{
     background-color: #AA8B56;
 }
 
-/********NOSOTROS*********/
+NOSOTROS
 
 h2{
     font-family:'Poppins', sans-serif ;
@@ -90,7 +94,7 @@ h2{
     margin: 30px 0px 30px 0px;
 }
 
-/******CONTACTO*******/
+CONTACTO
 
 .titulo-formulario legend{
     font-family:'Poppins', sans-serif ;
@@ -103,7 +107,7 @@ h2{
 }
 
 
-/******CAMPO*******/
+CAMPO
 
 
 .campo-principal{
@@ -121,5 +125,113 @@ h2{
     font-size: 20px;
 }
 
-/*******ACTIVIDAD********/
+**/
 
+
+header{
+    background-color: #AA8B56;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.navbar{
+    list-style: none;
+}
+
+nav{
+    margin: 10px 0px;
+    text-align: center
+}
+
+.navbar li{
+    padding: 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.section-principal img{
+    width: 100%
+}
+
+.section-principal{
+    position: relative;
+}
+
+.section-principal h1{
+    position: absolute;
+    top: 10%;
+    right:20%;
+    font-family:'Poppins', sans-serif  ;
+    font-size: 40px;
+}
+
+.texto-principal p{
+    position: absolute;
+    top: 30%;
+    right:15%;
+    left: 18%;
+    text-align: center;
+    font-family:'Poppins', sans-serif  ;
+    font-size: 20px;
+    background-color: rgba(245, 245, 220, 0.176);
+}
+
+.texto-principal a{
+    position: absolute;
+    top: 70%;
+    right:15%;
+    left: 15%;
+    text-align: center;
+    font-family:'Poppins', sans-serif  ;
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+}
+main{
+    background-color: #F0EBCE;
+}
+
+.section-index-secundary div img{
+    border-radius: 50%;
+}
+
+.section-index-secundary{
+    margin-left: 15%;
+}
+
+.section-index-secundary figcaption{
+    padding: 15px 0px 15px 60px
+    
+}
+
+.footer-telefono{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-redes ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AA8B56;
+}
+
+.footer-logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
