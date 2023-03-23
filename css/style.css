@@ -126,7 +126,7 @@ CAMPO
 }
 
 **/
-
+/* PARA IPHONE SE **/
 
 header{
     background-color: #AA8B56;
@@ -213,6 +213,7 @@ main{
 }
 
 .footer-telefono{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -222,6 +223,7 @@ main{
     flex-direction: row;
     align-items: center;
     list-style: none;
+    margin-bottom: 10px;
 }
 
 footer{
@@ -235,3 +237,23 @@ footer{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/* PARA 320 **/
+
+@media (max-width: 320px){
+    .section-principal h1{
+        right: 17%;
+        top: 5%;
+    }
+    .section-principal p{
+        right: 10%;
+        left: 10%;
+    }
+    .section-principal a{
+        top: 78%;
+    }
+    .section-index-secundary{
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+}    
