@@ -174,10 +174,18 @@ footer{
     font-size: 20px;
 }
 
+.info-agricultura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info-agricultura img{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .container-ganaderia{
@@ -199,10 +207,18 @@ footer{
     font-size: 20px;
 }
 
+.info-ganaderia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info-ganaderia img{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 /*CAMPO**/
@@ -341,21 +357,32 @@ footer{
         font-family:'Poppins', sans-serif  ;
         font-size: 25px;
     }
+    .main-actividad h1{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .container-agricultura h2{
+        font-size: 35px;
+    }
+    .container-agricultura p{
+        font-size: 30px;
+    }
+    .info-agricultura img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .container-ganaderia h2{
+        font-size: 35px;
+    }
+    .container-ganaderia p{
+        font-size: 30px;
+    }
+    .info-ganaderia img{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* INDEX Y ACTIVIDAD PARA 1024 **/
 
@@ -381,4 +408,33 @@ footer{
     .texto-principal p{
         top: 35%;
     }
+    .main-actividad h1{
+        font-size: 60px;
+    }
+    .container-agricultura h2{
+        font-size: 40px;
+    }
+    .info-agricultura{
+        flex-direction: row;
+    }    
+    .container-agricultura p{
+        font-size: 25px;
+    }    
+    .info-agricultura img{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .container-ganaderia h2{
+        font-size: 40px;
+    }
+    .info-ganaderia{
+        flex-direction: row-reverse;
+    }
+    .container-ganaderia p{
+        font-size: 25px;
+    }  
+    .info-ganaderia img{
+        margin-left: 5px;
+        margin-right: 5px;
+    }   
 }
