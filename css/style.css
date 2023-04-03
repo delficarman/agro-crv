@@ -119,32 +119,30 @@ main{
 }
 
 .footer-telefono{
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .footer-redes ul{
     display: flex;
     flex-direction: row;
-    align-items: center;
     list-style: none;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-areas:
+    "footer-telefono"
+    "footer-logo"
+    "footer-redes"
+    ;
     background-color: #AA8B56;
+    justify-items: center;
 }
 
-.footer-logo{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-/*FIN INDEX**/
 
 /*ACTIVIDAD**/
 
@@ -436,5 +434,17 @@ footer{
     .info-ganaderia img{
         margin-left: 5px;
         margin-right: 5px;
-    }   
+    }
+    footer{
+        display: grid;
+        grid-template-areas:
+        "footer-telefono footer-logo footer-redes"
+        ;
+        background-color: #AA8B56;
+        align-items: center;
+    }
+    .footer-logo{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
 }
