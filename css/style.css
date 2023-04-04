@@ -25,6 +25,13 @@ header{
 
 .navbar{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar li{
+    padding: 10px;
+    margin-left: 0%;
 }
 
 nav{
@@ -32,13 +39,10 @@ nav{
     text-align: center
 }
 
-.navbar li{
-    padding: 10px;
-}
 .navbar li a{
     text-decoration: none;
     color: black;
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
     font-family:'Poppins', sans-serif ;
 }
@@ -385,6 +389,19 @@ footer{
 /* INDEX Y ACTIVIDAD PARA 1024 **/
 
 @media (min-width: 1024px){
+    header{
+        flex-direction: row;
+        align-items: center;  
+    }
+    .navbar{
+        flex-direction: row;
+    }
+    .navbar li{
+        margin-left: 5%;
+    }
+    .navbar li a{
+        font-size: 35px;
+    }
     .section-index-secundary{
         flex-direction: row;
     }
