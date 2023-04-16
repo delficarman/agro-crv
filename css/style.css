@@ -96,6 +96,88 @@ footer {
         font-size: 15px;
         padding: 15px 0px 15px 60px; }
 
+.main-actividad h1 {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px; }
+
+.main-actividad .container-agricultura {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .main-actividad .container-agricultura h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px; }
+  .main-actividad .container-agricultura div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-actividad .container-agricultura div img {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 0%;
+      margin-right: 0%; }
+    .main-actividad .container-agricultura div p {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      font-size: 20px; }
+
+.main-actividad .container-ganaderia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 20px; }
+  .main-actividad .container-ganaderia h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px; }
+  .main-actividad .container-ganaderia div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-actividad .container-ganaderia div img {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 0%;
+      margin-right: 0%; }
+    .main-actividad .container-ganaderia div p {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      font-size: 20px; }
+
+.main-campo .campo-principal h1 {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px; }
+
+.main-campo .campo-principal p {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.main-campo .container-mapas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; }
+  .main-campo .container-mapas div figure iframe {
+    width: 80%;
+    margin-left: 30px; }
+  .main-campo .container-mapas div figure figcaption {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; }
+
 .main-contacto h1 {
   font-family: 'Poppins', sans-serif;
   padding-top: 10px;

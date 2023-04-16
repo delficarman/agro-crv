@@ -26,36 +26,6 @@
     margin-right: 35px;
 }
 
-/*NOSOTROS**/
-
-.container-nosotros{
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.container-nosotros h1{
-    font-family:'Poppins', sans-serif  ;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.container-nosotros img{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.container-nosotros p{
-    font-family:'Poppins', sans-serif  ;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 /* INDEX Y ACTIVIDAD PARA 768 **/
 
 @media (min-width: 768px){
