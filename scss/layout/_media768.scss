@@ -1,0 +1,75 @@
+@media (min-width: 768px){
+    header{
+        .navbar{
+            font-size: 25px;
+        }
+    }
+    .main-index{
+        .section-principal{
+            img{
+                height: 400px;
+            }
+            h1{
+                right: 30%;
+                font-size: 60px;
+            }
+            div{
+                p{
+                    top: 30%;
+                    font-size: 30px;
+                }
+                a{
+                    top: 75%;
+                    font-size: 30px; 
+                }
+            }
+        }
+        .section-index-secundary{
+            div{
+                figure{
+                    flex-direction: row;
+                    figcaption{
+                        margin-right: 5%;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-actividad{
+        h1{
+            padding-top: 20px;
+            font-size: 50px;
+        }
+        .container-agricultura{
+            h2{
+                font-size: 35px;  
+            }
+            div{
+                img{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 30px; 
+                }
+            }
+        }
+        .container-ganaderia{
+            h2{
+                font-size: 35px;
+            }
+            div{
+                img{
+                    width: 100%;
+                    margin-top: 20px;
+                    margin-bottom: 20px; 
+                }
+                p{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

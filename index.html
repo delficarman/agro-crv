@@ -6,51 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div>
-            <a href="./index.html"><img src="./assets/img/logo/logo-agrocrv.jpg" alt="LOGO AGRO CRV"></a>
-        </div>
-        <nav>
-            <ul class="navbar">
-                <li><a href="./pages/campo.html">Campo</a></li>
-                <li><a href="./pages/actividad.html">Actividad</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: #AA8B56;">
+            <div class="container-fluid">
+                <a class="navbar-brand" aria-current="page" href="./index.html"><img src="./assets/img/logo/logo-agrocrv.jpg" alt="LOGO AGRO CRV"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/actividad.html">Actividad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/campo.html">Campo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="main-index">
         <section class="section-principal">
             <img src="./assets/img/main/cosecha-main.jpg" alt="Fondo cosechadora">
             <h1>AGRO CRV</h1>
-            <div class="texto-principal">
+            <div>
                 <p>Trabajamos para hacer crecer tu negocio. Somos productores agropecuarios con más de 30 años de experiencia.</p>
                 <a href="./pages/nosotros.html">Conocenos</a>
             </div>
         </section>
         <section class="section-index-secundary">
             <div>
-                <figure class="hidden">
+                <figure>
                     <img src="./assets/img/main/persona1.jpg" alt="Mariano">
                     <figcaption>Mariano Carman</figcaption>                
                 </figure>
             </div>
             <div>
-                <figure class="hidden">
+                <figure>
                     <img src="./assets/img/main/persona2.jpg" alt="Mariano">
                     <figcaption>Federico Romane</figcaption>                
                 </figure>
             </div>
             <div>
-                <figure class="hidden">
+                <figure>
                     <img src="./assets/img/main/persona3.jpeg" alt="Mariano">
                     <figcaption>Roman Von Breven</figcaption>                
                 </figure>
             </div>
             <div>
-                <figure class="hidden">
+                <figure>
                     <img src="./assets/img/main/persona4.jpg" alt="Mariano">
                     <figcaption>Federico Manfredi</figcaption>                
                 </figure>
@@ -73,5 +87,6 @@
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>    
 </body>
 </html>

@@ -3,29 +3,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-header {
-  background-color: #AA8B56;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  header nav {
-    margin: 10px 0px;
-    text-align: center; }
-    header nav .navbar {
-      list-style: none;
-      display: flex;
-      flex-direction: column; }
-      header nav .navbar li {
-        padding: 10px;
-        margin-left: 0%; }
-        header nav .navbar li a {
-          text-decoration: none;
-          color: black;
-          padding: 10px;
-          font-size: 20px;
-          font-family: 'Poppins', sans-serif; }
-
 footer {
   display: grid;
   grid-template-areas: "footer-telefono" "footer-logo" "footer-redes";
@@ -40,7 +17,8 @@ footer {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-right: 30px; }
 
 .main-index {
   background-color: #F0EBCE; }
@@ -48,16 +26,16 @@ footer {
     position: relative; }
     .main-index .section-principal img {
       width: 100%;
-      height: 100%; }
+      height: 300px; }
     .main-index .section-principal h1 {
       position: absolute;
-      top: 10%;
-      right: 15%;
+      top: 7%;
+      right: 20%;
       font-family: 'Poppins', sans-serif;
-      font-size: 40px; }
+      font-size: 35px; }
     .main-index .section-principal div p {
       position: absolute;
-      top: 30%;
+      top: 23%;
       right: 15%;
       left: 17%;
       text-align: center;
@@ -211,3 +189,111 @@ footer {
     font-size: 20px;
     margin-left: 5px;
     margin-right: 5px; }
+
+@media (min-width: 768px) {
+  header .navbar {
+    font-size: 25px; }
+  .main-index .section-principal img {
+    height: 400px; }
+  .main-index .section-principal h1 {
+    right: 30%;
+    font-size: 60px; }
+  .main-index .section-principal div p {
+    top: 30%;
+    font-size: 30px; }
+  .main-index .section-principal div a {
+    top: 75%;
+    font-size: 30px; }
+  .main-index .section-index-secundary div figure {
+    flex-direction: row; }
+    .main-index .section-index-secundary div figure figcaption {
+      margin-right: 5%;
+      font-size: 25px; }
+  .main-actividad h1 {
+    padding-top: 20px;
+    font-size: 50px; }
+  .main-actividad .container-agricultura h2 {
+    font-size: 35px; }
+  .main-actividad .container-agricultura div img {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .main-actividad .container-agricultura div p {
+    font-size: 30px; }
+  .main-actividad .container-ganaderia h2 {
+    font-size: 35px; }
+  .main-actividad .container-ganaderia div img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .main-actividad .container-ganaderia div p {
+    font-size: 30px; } }
+
+@media (min-width: 1024px) {
+  .main-index .section-principal h1 {
+    right: 33%; }
+  .main-index .section-principal div p {
+    top: 35%; }
+  .main-index .section-index-secundary {
+    flex-direction: row; }
+    .main-index .section-index-secundary div figure {
+      flex-direction: column; }
+      .main-index .section-index-secundary div figure img {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 80%; }
+      .main-index .section-index-secundary div figure figcaption {
+        padding: 15px 0px 10px 0px;
+        font-size: 20px;
+        margin-left: 3%; }
+  .main-actividad h1 {
+    font-size: 60px; }
+  .main-actividad .container-agricultura h2 {
+    font-size: 40px; }
+  .main-actividad .container-agricultura div {
+    flex-direction: row; }
+    .main-actividad .container-agricultura div img {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .main-actividad .container-agricultura div p {
+      font-size: 25px; }
+  .main-actividad .container-ganaderia h2 {
+    font-size: 40px; }
+  .main-actividad .container-ganaderia div {
+    flex-direction: row-reverse; }
+    .main-actividad .container-ganaderia div img {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .main-actividad .container-ganaderia div p {
+      font-size: 25px; }
+  footer {
+    display: grid;
+    grid-template-areas: "footer-telefono footer-logo footer-redes";
+    background-color: #AA8B56;
+    align-items: center; }
+    footer .footer-logo {
+      margin-top: 15px;
+      margin-bottom: 10px; } }
+
+@media (min-width: 1024px) {
+  .navbar {
+    font-size: 30px; }
+  .navbar-nav .nav-item {
+    margin-left: 40px; } }
+
+/*
+verde oscuro a verde clarito
+344e41
+3a5a40
+588157
+a3b18a
+dad7cd
+**/
+/*
+verde clarito a marron
+606c38
+283618
+fefae0
+dda15e
+bc6c25
+**/

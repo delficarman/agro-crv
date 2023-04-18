@@ -1,0 +1,82 @@
+@media (min-width: 1024px){
+    .main-index{
+        .section-principal{
+            h1{
+                right: 33%;
+            }
+            div{
+                p{
+                    top: 35%;
+                }
+            }
+        }
+        .section-index-secundary{
+            flex-direction: row;
+            div{
+                figure{
+                    flex-direction: column;
+                    img{
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        width: 80%;
+                    }
+                    figcaption{
+                        padding: 15px 0px 10px 0px;
+                        font-size: 20px;
+                        margin-left: 3%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .main-actividad{
+        h1{
+            font-size: 60px;
+        }
+        .container-agricultura{
+            h2{
+                font-size: 40px;  
+            }
+            div{
+                flex-direction: row;
+                img{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                p{
+                    font-size: 25px; 
+                }
+            }
+        }
+        .container-ganaderia{
+            h2{
+                font-size: 40px;
+            }
+            div{
+                flex-direction: row-reverse;
+                img{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    
+    footer{
+        display: grid;
+        grid-template-areas:
+        "footer-telefono footer-logo footer-redes"
+        ;
+        background-color: #AA8B56;
+        align-items: center;
+        .footer-logo{
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+    }
+}
