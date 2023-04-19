@@ -12,3 +12,11 @@
         }
     }
 }
+
+.nav-item:hover{
+    a{
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 1.2em;
+    }
+}

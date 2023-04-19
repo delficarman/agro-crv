@@ -286,6 +286,11 @@ footer {
     .navbar-nav .nav-item {
       margin: 20px; } }
 
+.nav-item:hover a {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2em; }
+
 /*
 verde oscuro a verde clarito
 344e41
