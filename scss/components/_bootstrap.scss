@@ -3,9 +3,12 @@
         font-size: 30px;
     }
     .navbar-nav{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        float: none;
         .nav-item{
-            margin-left: 40px;
+            margin: 20px;
         }
     }
-
 }

@@ -278,8 +278,13 @@ footer {
 @media (min-width: 1024px) {
   .navbar {
     font-size: 30px; }
-  .navbar-nav .nav-item {
-    margin-left: 40px; } }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    float: none; }
+    .navbar-nav .nav-item {
+      margin: 20px; } }
 
 /*
 verde oscuro a verde clarito
