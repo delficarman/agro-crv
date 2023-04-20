@@ -1,14 +1,14 @@
 .main-campo{
     .campo-principal{
         h1{
-            font-family:'Poppins', sans-serif  ;
+            font-family:$font-general ;
             padding-top: 10px;
             text-align: center;
             font-size: 30px;
         }
         p{
             margin-top: 5px;
-            font-family:'Poppins', sans-serif  ;
+            font-family:$font-general ;
             text-align: center;
             font-size: 20px;
             margin-left: 5px;
@@ -29,7 +29,7 @@
                     text-align: center;
                     margin-top: 5px;
                     margin-bottom: 20px;
-                    font-family:'Poppins', sans-serif;
+                    font-family:$font-general;
                     font-size: 20px 
                 }
             }

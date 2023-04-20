@@ -68,11 +68,9 @@
     }
     
     footer{
-        display: grid;
         grid-template-areas:
         "footer-telefono footer-logo footer-redes"
         ;
-        background-color: #AA8B56;
         align-items: center;
         .footer-logo{
             margin-top: 15px;
