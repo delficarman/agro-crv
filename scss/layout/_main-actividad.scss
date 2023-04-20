@@ -6,7 +6,7 @@
         font-size: 30px;
     }
     .container-agricultura{
-        @include flex(column,none,none)
+        @include flex(column,none,none);
         margin-top: 20px;
         margin-bottom: 20px;
         h2{
@@ -15,7 +15,7 @@
             font-size: 25px;
         }
         div{
-            @include flex(column,none,center)
+            @include flex(column,none,center);
             img{
                 width: 100%;
                 margin-top: 10px;
@@ -31,7 +31,7 @@
         }
     }
     .container-ganaderia{
-        @include flex(column,none,none)
+        @include flex(column,none,none);
         margin-top: 20px;
         padding-bottom: 20px;
         h2{
@@ -40,7 +40,7 @@
             font-size: 25px;
         }
         div{
-            @include flex(column,none,center)
+            @include flex(column,none,center);
             img{
                 width: 100%;
                 margin-top: 10px;
