@@ -16,8 +16,7 @@
         }
     }
     .container-mapas{
-        display: flex;
-        flex-direction: column;
+        @include flex(column,none,none);
         margin-top: 20px;
         div{
             figure{

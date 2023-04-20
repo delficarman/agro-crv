@@ -11,11 +11,15 @@ footer {
   footer .footer-telefono {
     display: flex;
     flex-direction: row;
+    justify-content: none;
+    align-items: none;
     margin-bottom: 10px;
     margin-top: 10px; }
   footer .footer-redes ul {
     display: flex;
     flex-direction: row;
+    justify-content: none;
+    align-items: none;
     list-style: none;
     margin-top: 10px;
     margin-right: 30px; }
@@ -54,10 +58,13 @@ footer {
       color: black; }
   .main-index .section-index-secundary {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: none;
+    align-items: none; }
     .main-index .section-index-secundary div figure {
       display: flex;
       flex-direction: column;
+      justify-content: none;
       align-items: center;
       justify-items: center;
       width: 80%;
@@ -83,6 +90,8 @@ footer {
 .main-actividad .container-agricultura {
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   margin-top: 20px;
   margin-bottom: 20px; }
   .main-actividad .container-agricultura h2 {
@@ -92,6 +101,7 @@ footer {
   .main-actividad .container-agricultura div {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center; }
     .main-actividad .container-agricultura div img {
       width: 100%;
@@ -107,6 +117,8 @@ footer {
 .main-actividad .container-ganaderia {
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   margin-top: 20px;
   padding-bottom: 20px; }
   .main-actividad .container-ganaderia h2 {
@@ -116,6 +128,7 @@ footer {
   .main-actividad .container-ganaderia div {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center; }
     .main-actividad .container-ganaderia div img {
       width: 100%;
@@ -145,6 +158,8 @@ footer {
 .main-campo .container-mapas {
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   margin-top: 20px; }
   .main-campo .container-mapas div figure iframe {
     width: 80%;
@@ -172,6 +187,8 @@ footer {
 .main-nosotros section {
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   padding-top: 10px;
   padding-bottom: 10px; }
   .main-nosotros section h1 {
