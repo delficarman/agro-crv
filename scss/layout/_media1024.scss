@@ -66,7 +66,23 @@
             }
         }
     }
-    
+    .main-campo{
+        .container-mapas{
+            div{
+                figure{
+                    iframe{
+                        margin-left: 100px;
+                    }
+                }
+            }
+        }
+    }
+    .main-nosotros{
+        .foto-quienes-somos{
+                margin-left: 120px;
+                margin-bottom: 20px;
+        }
+    }
     footer{
         grid-template-areas:
         "footer-telefono footer-logo footer-redes"

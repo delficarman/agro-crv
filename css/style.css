@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+header nav {
+  background-color: #606c38; }
+  header nav div div ul li a {
+    font-family: "Poppins", sans-serif;
+    color: white; }
+
 footer {
   display: grid;
   grid-template-areas: "footer-telefono" "footer-logo" "footer-redes";
-  background-color: #AA8B56;
+  background-color: #606c38;
   justify-items: center; }
   footer .footer-telefono {
     display: flex;
@@ -25,17 +31,19 @@ footer {
     margin-right: 30px; }
 
 .main-index {
-  background-color: #F0EBCE; }
+  background-color: #fefae0; }
   .main-index .section-principal {
     position: relative; }
     .main-index .section-principal img {
       width: 100%;
-      height: 300px; }
+      height: 300px;
+      opacity: 70%; }
     .main-index .section-principal h1 {
       position: absolute;
       top: 7%;
       right: 20%;
       font-family: "Poppins", sans-serif;
+      color: black;
       font-size: 35px; }
     .main-index .section-principal div p {
       position: absolute;
@@ -44,8 +52,8 @@ footer {
       left: 17%;
       text-align: center;
       font-family: "Poppins", sans-serif;
-      font-size: 20px;
-      background-color: rgba(245, 245, 220, 0.176); }
+      color: black;
+      font-size: 20px; }
     .main-index .section-principal div a {
       position: absolute;
       top: 80%;
@@ -81,131 +89,138 @@ footer {
         font-size: 15px;
         padding: 15px 0px 15px 60px; }
 
-.main-actividad h1 {
-  font-family: "Poppins", sans-serif;
-  padding-top: 10px;
-  text-align: center;
-  font-size: 30px; }
-
-.main-actividad .container-agricultura {
-  display: flex;
-  flex-direction: column;
-  justify-content: none;
-  align-items: none;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  .main-actividad .container-agricultura h2 {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 25px; }
-  .main-actividad .container-agricultura div {
-    display: flex;
-    flex-direction: column;
-    justify-content: none;
-    align-items: center; }
-    .main-actividad .container-agricultura div img {
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 0%;
-      margin-right: 0%; }
-    .main-actividad .container-agricultura div p {
-      font-family: "Poppins", sans-serif;
-      text-align: center;
-      font-size: 20px; }
-
-.main-actividad .container-ganaderia {
-  display: flex;
-  flex-direction: column;
-  justify-content: none;
-  align-items: none;
-  margin-top: 20px;
-  padding-bottom: 20px; }
-  .main-actividad .container-ganaderia h2 {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 25px; }
-  .main-actividad .container-ganaderia div {
-    display: flex;
-    flex-direction: column;
-    justify-content: none;
-    align-items: center; }
-    .main-actividad .container-ganaderia div img {
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 0%;
-      margin-right: 0%; }
-    .main-actividad .container-ganaderia div p {
-      font-family: "Poppins", sans-serif;
-      text-align: center;
-      font-size: 20px; }
-
-.main-campo .campo-principal h1 {
-  font-family: "Poppins", sans-serif;
-  padding-top: 10px;
-  text-align: center;
-  font-size: 30px; }
-
-.main-campo .campo-principal p {
-  margin-top: 5px;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-size: 20px;
-  margin-left: 5px;
-  margin-right: 5px; }
-
-.main-campo .container-mapas {
-  display: flex;
-  flex-direction: column;
-  justify-content: none;
-  align-items: none;
-  margin-top: 20px; }
-  .main-campo .container-mapas div figure iframe {
-    width: 80%;
-    margin-left: 30px; }
-  .main-campo .container-mapas div figure figcaption {
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px; }
-
-.main-contacto h1 {
-  font-family: "Poppins", sans-serif;
-  padding-top: 10px;
-  text-align: center;
-  font-size: 30px; }
-
-.main-contacto section {
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 20px;
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.main-nosotros section {
-  display: flex;
-  flex-direction: column;
-  justify-content: none;
-  align-items: none;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .main-nosotros section h1 {
+.main-actividad {
+  background-color: #fefae0; }
+  .main-actividad h1 {
     font-family: "Poppins", sans-serif;
     padding-top: 10px;
     text-align: center;
     font-size: 30px; }
-  .main-nosotros section .foto-quienes-somos img {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .main-nosotros section .texto-nosotros p {
+  .main-actividad .container-agricultura {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .main-actividad .container-agricultura h2 {
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      font-size: 25px; }
+    .main-actividad .container-agricultura div {
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: center; }
+      .main-actividad .container-agricultura div img {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0%;
+        margin-right: 0%; }
+      .main-actividad .container-agricultura div p {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 20px; }
+  .main-actividad .container-ganaderia {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    margin-top: 20px;
+    padding-bottom: 20px; }
+    .main-actividad .container-ganaderia h2 {
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      font-size: 25px; }
+    .main-actividad .container-ganaderia div {
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: center; }
+      .main-actividad .container-ganaderia div img {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0%;
+        margin-right: 0%; }
+      .main-actividad .container-ganaderia div p {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 20px; }
+
+.main-campo {
+  background-color: #fefae0; }
+  .main-campo .campo-principal h1 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px; }
+  .main-campo .campo-principal p {
+    margin-top: 5px;
     font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 20px;
     margin-left: 5px;
     margin-right: 5px; }
+  .main-campo .container-mapas {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    margin-top: 20px; }
+    .main-campo .container-mapas div figure iframe {
+      width: 80%;
+      margin-left: 30px; }
+    .main-campo .container-mapas div figure figcaption {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px; }
+
+.main-contacto {
+  background-color: #fefae0; }
+  .main-contacto h1 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px; }
+  .main-contacto section {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .main-contacto section button {
+      background-color: #dda15e;
+      border-color: #dda15e; }
+
+.main-nosotros {
+  background-color: #fefae0; }
+  .main-nosotros section {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .main-nosotros section h1 {
+      font-family: "Poppins", sans-serif;
+      padding-top: 10px;
+      text-align: center;
+      font-size: 30px; }
+    .main-nosotros section .foto-quienes-somos img {
+      width: 80%;
+      margin-left: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .main-nosotros section .texto-nosotros p {
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      font-size: 20px;
+      margin-left: 5px;
+      margin-right: 5px; }
 
 @media (min-width: 768px) {
   header .navbar {
@@ -243,7 +258,11 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px; }
   .main-actividad .container-ganaderia div p {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .main-campo .container-mapas div figure iframe {
+    margin-left: 80px; }
+  .main-nosotros .foto-quienes-somos {
+    margin-left: 80px; } }
 
 @media (min-width: 1024px) {
   .main-index .section-principal h1 {
@@ -283,6 +302,11 @@ footer {
       margin-right: 5px; }
     .main-actividad .container-ganaderia div p {
       font-size: 25px; }
+  .main-campo .container-mapas div figure iframe {
+    margin-left: 100px; }
+  .main-nosotros .foto-quienes-somos {
+    margin-left: 120px;
+    margin-bottom: 20px; }
   footer {
     grid-template-areas: "footer-telefono footer-logo footer-redes";
     align-items: center; }
