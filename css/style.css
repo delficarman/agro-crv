@@ -21,6 +21,9 @@ footer {
     align-items: none;
     margin-bottom: 10px;
     margin-top: 10px; }
+    footer .footer-telefono p {
+      margin-top: 10px;
+      margin-left: 3px; }
   footer .footer-redes ul {
     display: flex;
     flex-direction: row;
@@ -304,9 +307,13 @@ footer {
       font-size: 25px; }
   .main-campo .container-mapas div figure iframe {
     margin-left: 100px; }
-  .main-nosotros .foto-quienes-somos {
+  .main-nosotros section h1 {
+    font-size: 50px; }
+  .main-nosotros section .foto-quienes-somos {
     margin-left: 120px;
     margin-bottom: 20px; }
+  .main-nosotros section .texto-nosotros p {
+    font-size: 25px; }
   footer {
     grid-template-areas: "footer-telefono footer-logo footer-redes";
     align-items: center; }

@@ -78,9 +78,19 @@
         }
     }
     .main-nosotros{
-        .foto-quienes-somos{
+        section{
+            h1{
+                font-size: 50px;
+            }
+            .foto-quienes-somos{
                 margin-left: 120px;
                 margin-bottom: 20px;
+            }
+            .texto-nosotros{
+                p{
+                    font-size: 25px;
+                }
+            }
         }
     }
     footer{
