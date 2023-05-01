@@ -91,6 +91,9 @@ footer {
         font-family: "Poppins", sans-serif;
         font-size: 15px;
         padding: 15px 0px 15px 60px; }
+  .main-index .cards-index {
+    margin-top: 30px;
+    padding-bottom: 30px; }
 
 .main-actividad {
   background-color: #fefae0; }
@@ -218,12 +221,13 @@ footer {
       margin-left: 30px;
       margin-top: 10px;
       margin-bottom: 10px; }
-    .main-nosotros section .texto-nosotros p {
-      font-family: "Poppins", sans-serif;
-      text-align: center;
-      font-size: 20px;
-      margin-left: 5px;
-      margin-right: 5px; }
+    .main-nosotros section .texto-nosotros {
+      margin-left: 10px;
+      margin-right: 10px; }
+      .main-nosotros section .texto-nosotros p {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 18px; }
 
 @media (min-width: 768px) {
   header .navbar {
@@ -264,8 +268,15 @@ footer {
     font-size: 30px; }
   .main-campo .container-mapas div figure iframe {
     margin-left: 80px; }
-  .main-nosotros .foto-quienes-somos {
-    margin-left: 80px; } }
+  .main-nosotros section h1 {
+    font-size: 40px; }
+  .main-nosotros section .foto-quienes-somos img {
+    margin-left: 80px; }
+  .main-nosotros section .texto-nosotros {
+    margin-left: 25px;
+    margin-right: 25px; }
+    .main-nosotros section .texto-nosotros p {
+      font-size: 20px; } }
 
 @media (min-width: 1024px) {
   .main-index .section-principal h1 {
@@ -312,8 +323,11 @@ footer {
   .main-nosotros section .foto-quienes-somos {
     margin-left: 120px;
     margin-bottom: 20px; }
-  .main-nosotros section .texto-nosotros p {
-    font-size: 25px; }
+  .main-nosotros section .texto-nosotros {
+    margin-left: 30px;
+    margin-right: 30px; }
+    .main-nosotros section .texto-nosotros p {
+      font-size: 20px; }
   footer {
     grid-template-areas: "footer-telefono footer-logo footer-redes";
     align-items: center; }
