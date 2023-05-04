@@ -91,9 +91,6 @@ footer {
         font-family: "Poppins", sans-serif;
         font-size: 15px;
         padding: 15px 0px 15px 60px; }
-  .main-index .cards-index {
-    margin-top: 30px;
-    padding-bottom: 30px; }
 
 .main-actividad {
   background-color: #fefae0; }
@@ -119,7 +116,7 @@ footer {
       justify-content: none;
       align-items: center; }
       .main-actividad .container-agricultura div img {
-        width: 100%;
+        width: 80%;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 0%;
@@ -127,7 +124,9 @@ footer {
       .main-actividad .container-agricultura div p {
         font-family: "Poppins", sans-serif;
         text-align: center;
-        font-size: 20px; }
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px; }
   .main-actividad .container-ganaderia {
     display: flex;
     flex-direction: column;
@@ -145,7 +144,7 @@ footer {
       justify-content: none;
       align-items: center; }
       .main-actividad .container-ganaderia div img {
-        width: 100%;
+        width: 80%;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 0%;
@@ -153,7 +152,9 @@ footer {
       .main-actividad .container-ganaderia div p {
         font-family: "Poppins", sans-serif;
         text-align: center;
-        font-size: 20px; }
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px; }
 
 .main-campo {
   background-color: #fefae0; }
@@ -229,6 +230,25 @@ footer {
         text-align: center;
         font-size: 18px; }
 
+@media (min-width: 375px) {
+  header .navbar {
+    font-size: 23px; }
+  .main-index .section-principal h1 {
+    right: 23%;
+    font-size: 35px; }
+  .main-index .section-principal div p {
+    top: 25%;
+    font-size: 21px; }
+  .main-index .section-principal div a {
+    top: 75%;
+    font-size: 25px; }
+  .main-campo .container-mapas div figure iframe {
+    margin-left: 36px; } }
+
+@media (min-width: 425px) {
+  .main-campo .container-mapas div figure iframe {
+    margin-left: 41px; } }
+
 @media (min-width: 768px) {
   header .navbar {
     font-size: 25px; }
@@ -261,7 +281,6 @@ footer {
   .main-actividad .container-ganaderia h2 {
     font-size: 35px; }
   .main-actividad .container-ganaderia div img {
-    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px; }
   .main-actividad .container-ganaderia div p {
@@ -303,19 +322,25 @@ footer {
   .main-actividad .container-agricultura div {
     flex-direction: row; }
     .main-actividad .container-agricultura div img {
+      width: 70%;
       margin-left: 5px;
       margin-right: 5px; }
     .main-actividad .container-agricultura div p {
-      font-size: 25px; }
+      font-size: 18px;
+      margin-left: 0px;
+      margin-right: 0px; }
   .main-actividad .container-ganaderia h2 {
     font-size: 40px; }
   .main-actividad .container-ganaderia div {
     flex-direction: row-reverse; }
     .main-actividad .container-ganaderia div img {
+      width: 70%;
       margin-left: 5px;
       margin-right: 5px; }
     .main-actividad .container-ganaderia div p {
-      font-size: 25px; }
+      font-size: 18px;
+      margin-left: 0px;
+      margin-right: 0px; }
   .main-campo .container-mapas div figure iframe {
     margin-left: 100px; }
   .main-nosotros section h1 {
@@ -334,6 +359,24 @@ footer {
     footer .footer-logo {
       margin-top: 15px;
       margin-bottom: 10px; } }
+
+@media (min-width: 1440px) {
+  .main-actividad .container-agricultura div img {
+    width: 70%;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .main-actividad .container-agricultura div p {
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px; }
+  .main-actividad .container-ganaderia div img {
+    width: 70%;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .main-actividad .container-ganaderia div p {
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px; } }
 
 @media (min-width: 1024px) {
   .navbar {

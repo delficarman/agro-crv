@@ -1,0 +1,36 @@
+@media (min-width: 375px){
+    header{
+        .navbar{
+            font-size: 23px;
+        }
+    }
+    .main-index{
+        .section-principal{
+            h1{
+                right: 23%;
+                font-size: 35px;
+            }
+            div{
+                p{
+                    top: 25%;
+                    font-size: 21px;
+                }
+                a{
+                    top: 75%;
+                    font-size: 25px; 
+                }
+            }
+        }
+    }
+    .main-campo{
+        .container-mapas{
+            div{
+                figure{
+                    iframe{
+                        margin-left: 36px;
+                    }
+                }
+            }
+        }
+    }
+}    

@@ -42,11 +42,14 @@
             div{
                 flex-direction: row;
                 img{
+                    width: 70%;
                     margin-left: 5px;
                     margin-right: 5px;
                 }
                 p{
-                    font-size: 25px; 
+                    font-size: 18px;
+                    margin-left: 0px;
+                    margin-right: 0px; 
                 }
             }
         }
@@ -57,11 +60,14 @@
             div{
                 flex-direction: row-reverse;
                 img{
+                    width: 70%;
                     margin-left: 5px;
                     margin-right: 5px;
                 }
                 p{
-                    font-size: 25px;
+                    font-size: 18px;
+                    margin-left: 0px;
+                    margin-right: 0px;
                 }
             }
         }
