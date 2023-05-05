@@ -29,4 +29,61 @@
             }
         }
     }
-}    
+    .main-campo{
+        .campo-principal{
+            h1{
+                padding-top: 20px;
+                font-size: 60px;
+            }
+            p{
+                margin-top: 10px;
+                font-size: 30px;
+            }
+        }
+        .container-mapas{
+            div{
+                figure{
+                    iframe{
+                        margin-left: 140px;
+                    }
+                    figcaption{
+                        font-size: 27px;
+                    }
+                }
+            }
+        }
+    }
+    .main-nosotros{
+        section{
+            .texto-nosotros{
+                margin-left: 20px;
+                margin-right: 20px;
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .main-index{
+        .section-principal{
+            h1{
+                right: 38%;
+            }
+        }
+        .section-index-secundary{
+            div{
+                figure{
+                    img{
+                        margin-top: 20px;
+                        margin-left: 78px;
+                        width: 80%;
+                    }
+                    figcaption{
+                        margin-left: 60px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
